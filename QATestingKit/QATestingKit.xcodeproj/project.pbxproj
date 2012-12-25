@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A00A58A8168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
-		A00A58AD168851F90025644C /* QATestingKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A00A58AC168851F90025644C /* QATestingKit.h */; };
-		A00A58AF168851F90025644C /* QATestingKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58AE168851F90025644C /* QATestingKit.m */; };
 		A00A58B7168851F90025644C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B6168851F90025644C /* SenTestingKit.framework */; };
 		A00A58B9168851F90025644C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B8168851F90025644C /* UIKit.framework */; };
 		A00A58BA168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
 		A00A58BD168851F90025644C /* libQATestingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A4168851F90025644C /* libQATestingKit.a */; };
 		A00A58C3168851F90025644C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00A58C1168851F90025644C /* InfoPlist.strings */; };
-		A00A58C6168851F90025644C /* QATestingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58C5168851F90025644C /* QATestingKitTests.m */; };
+		A00A58C6168851F90025644C /* SenTestCase_asyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */; };
+		A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
+		A00A58D316885B650025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
+		A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A060823716889EA100EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				A00A58AD168851F90025644C /* QATestingKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,15 +46,14 @@
 		A00A58A4168851F90025644C /* libQATestingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQATestingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00A58A7168851F90025644C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A00A58AB168851F90025644C /* QATestingKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QATestingKit-Prefix.pch"; sourceTree = "<group>"; };
-		A00A58AC168851F90025644C /* QATestingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestingKit.h; sourceTree = "<group>"; };
-		A00A58AE168851F90025644C /* QATestingKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestingKit.m; sourceTree = "<group>"; };
 		A00A58B5168851F90025644C /* QATestingKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QATestingKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00A58B6168851F90025644C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A00A58B8168851F90025644C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A00A58C0168851F90025644C /* QATestingKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QATestingKitTests-Info.plist"; sourceTree = "<group>"; };
 		A00A58C2168851F90025644C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A00A58C4168851F90025644C /* QATestingKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestingKitTests.h; sourceTree = "<group>"; };
-		A00A58C5168851F90025644C /* QATestingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestingKitTests.m; sourceTree = "<group>"; };
+		A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_asyncTests.m; sourceTree = "<group>"; };
+		A00A58D0168852F90025644C /* SenTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+async.h"; sourceTree = "<group>"; };
+		A00A58D1168852F90025644C /* SenTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+async.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,7 @@
 		A00A58A9168851F90025644C /* QATestingKit */ = {
 			isa = PBXGroup;
 			children = (
-				A00A58AC168851F90025644C /* QATestingKit.h */,
-				A00A58AE168851F90025644C /* QATestingKit.m */,
+				A00A58CF168852DD0025644C /* SenTestingKit+Additions */,
 				A00A58AA168851F90025644C /* Supporting Files */,
 			);
 			path = QATestingKit;
@@ -129,8 +128,7 @@
 		A00A58BE168851F90025644C /* QATestingKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A00A58C4168851F90025644C /* QATestingKitTests.h */,
-				A00A58C5168851F90025644C /* QATestingKitTests.m */,
+				A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */,
 				A00A58BF168851F90025644C /* Supporting Files */,
 			);
 			path = QATestingKitTests;
@@ -145,7 +143,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A00A58CF168852DD0025644C /* SenTestingKit+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58D0168852F90025644C /* SenTestCase+async.h */,
+				A00A58D1168852F90025644C /* SenTestCase+async.m */,
+			);
+			path = "SenTestingKit+Additions";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A060822016889D3C00EDD932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A060823516889E9900EDD932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A060823716889EA100EDD932 /* SenTestCase+async.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A00A58A3168851F90025644C /* QATestingKit */ = {
@@ -155,6 +181,7 @@
 				A00A58A0168851F90025644C /* Sources */,
 				A00A58A1168851F90025644C /* Frameworks */,
 				A00A58A2168851F90025644C /* CopyFiles */,
+				A060823516889E9900EDD932 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -173,6 +200,7 @@
 				A00A58B1168851F90025644C /* Frameworks */,
 				A00A58B2168851F90025644C /* Resources */,
 				A00A58B3168851F90025644C /* ShellScript */,
+				A060822016889D3C00EDD932 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -243,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00A58AF168851F90025644C /* QATestingKit.m in Sources */,
+				A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00A58C6168851F90025644C /* QATestingKitTests.m in Sources */,
+				A00A58C6168851F90025644C /* SenTestCase_asyncTests.m in Sources */,
+				A00A58D316885B650025644C /* SenTestCase+async.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +316,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -314,6 +344,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -352,7 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					$inherited,
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -367,7 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					$inherited,
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -397,6 +428,7 @@
 				A00A58CB168851F90025644C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A00A58CC168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKitTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +437,7 @@
 				A00A58CE168851F90025644C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
