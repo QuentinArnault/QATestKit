@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00A58A8168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
+		A00A58AD168851F90025644C /* QATestingKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A00A58AC168851F90025644C /* QATestingKit.h */; };
+		A00A58AF168851F90025644C /* QATestingKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58AE168851F90025644C /* QATestingKit.m */; };
+		A00A58B7168851F90025644C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B6168851F90025644C /* SenTestingKit.framework */; };
+		A00A58B9168851F90025644C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B8168851F90025644C /* UIKit.framework */; };
+		A00A58BA168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
+		A00A58BD168851F90025644C /* libQATestingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A4168851F90025644C /* libQATestingKit.a */; };
+		A00A58C3168851F90025644C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00A58C1168851F90025644C /* InfoPlist.strings */; };
+		A00A58C6168851F90025644C /* QATestingKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58C5168851F90025644C /* QATestingKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00A58BB168851F90025644C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00A589B168851F90025644C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00A58A3168851F90025644C;
+			remoteInfo = QATestingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A00A58A2168851F90025644C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A00A58AD168851F90025644C /* QATestingKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A00A58A4168851F90025644C /* libQATestingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQATestingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00A58A7168851F90025644C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A00A58AB168851F90025644C /* QATestingKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QATestingKit-Prefix.pch"; sourceTree = "<group>"; };
+		A00A58AC168851F90025644C /* QATestingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestingKit.h; sourceTree = "<group>"; };
+		A00A58AE168851F90025644C /* QATestingKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestingKit.m; sourceTree = "<group>"; };
+		A00A58B5168851F90025644C /* QATestingKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QATestingKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00A58B6168851F90025644C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A00A58B8168851F90025644C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A00A58C0168851F90025644C /* QATestingKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QATestingKitTests-Info.plist"; sourceTree = "<group>"; };
+		A00A58C2168851F90025644C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A00A58C4168851F90025644C /* QATestingKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestingKitTests.h; sourceTree = "<group>"; };
+		A00A58C5168851F90025644C /* QATestingKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestingKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00A58A1168851F90025644C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00A58A8168851F90025644C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00A58B1168851F90025644C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00A58B7168851F90025644C /* SenTestingKit.framework in Frameworks */,
+				A00A58B9168851F90025644C /* UIKit.framework in Frameworks */,
+				A00A58BA168851F90025644C /* Foundation.framework in Frameworks */,
+				A00A58BD168851F90025644C /* libQATestingKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00A5899168851F90025644C = {
+			isa = PBXGroup;
+			children = (
+				A00A58A9168851F90025644C /* QATestingKit */,
+				A00A58BE168851F90025644C /* QATestingKitTests */,
+				A00A58A6168851F90025644C /* Frameworks */,
+				A00A58A5168851F90025644C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00A58A5168851F90025644C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58A4168851F90025644C /* libQATestingKit.a */,
+				A00A58B5168851F90025644C /* QATestingKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00A58A6168851F90025644C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58A7168851F90025644C /* Foundation.framework */,
+				A00A58B6168851F90025644C /* SenTestingKit.framework */,
+				A00A58B8168851F90025644C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00A58A9168851F90025644C /* QATestingKit */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58AC168851F90025644C /* QATestingKit.h */,
+				A00A58AE168851F90025644C /* QATestingKit.m */,
+				A00A58AA168851F90025644C /* Supporting Files */,
+			);
+			path = QATestingKit;
+			sourceTree = "<group>";
+		};
+		A00A58AA168851F90025644C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58AB168851F90025644C /* QATestingKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00A58BE168851F90025644C /* QATestingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58C4168851F90025644C /* QATestingKitTests.h */,
+				A00A58C5168851F90025644C /* QATestingKitTests.m */,
+				A00A58BF168851F90025644C /* Supporting Files */,
+			);
+			path = QATestingKitTests;
+			sourceTree = "<group>";
+		};
+		A00A58BF168851F90025644C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00A58C0168851F90025644C /* QATestingKitTests-Info.plist */,
+				A00A58C1168851F90025644C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00A58A3168851F90025644C /* QATestingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00A58C9168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKit" */;
+			buildPhases = (
+				A00A58A0168851F90025644C /* Sources */,
+				A00A58A1168851F90025644C /* Frameworks */,
+				A00A58A2168851F90025644C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QATestingKit;
+			productName = QATestingKit;
+			productReference = A00A58A4168851F90025644C /* libQATestingKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A00A58B4168851F90025644C /* QATestingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00A58CC168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKitTests" */;
+			buildPhases = (
+				A00A58B0168851F90025644C /* Sources */,
+				A00A58B1168851F90025644C /* Frameworks */,
+				A00A58B2168851F90025644C /* Resources */,
+				A00A58B3168851F90025644C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00A58BC168851F90025644C /* PBXTargetDependency */,
+			);
+			name = QATestingKitTests;
+			productName = QATestingKitTests;
+			productReference = A00A58B5168851F90025644C /* QATestingKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00A589B168851F90025644C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Quentin Arnault";
+			};
+			buildConfigurationList = A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestingKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A00A5899168851F90025644C;
+			productRefGroup = A00A58A5168851F90025644C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00A58A3168851F90025644C /* QATestingKit */,
+				A00A58B4168851F90025644C /* QATestingKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00A58B2168851F90025644C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00A58C3168851F90025644C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A00A58B3168851F90025644C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00A58A0168851F90025644C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00A58AF168851F90025644C /* QATestingKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00A58B0168851F90025644C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00A58C6168851F90025644C /* QATestingKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00A58BC168851F90025644C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00A58A3168851F90025644C /* QATestingKit */;
+			targetProxy = A00A58BB168851F90025644C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00A58C1168851F90025644C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00A58C2168851F90025644C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00A58C7168851F90025644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A00A58C8168851F90025644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00A58CA168851F90025644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/QATestingKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A00A58CB168851F90025644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/QATestingKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A00A58CD168851F90025644C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
+				INFOPLIST_FILE = "QATestingKitTests/QATestingKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A00A58CE168851F90025644C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
+				INFOPLIST_FILE = "QATestingKitTests/QATestingKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A58C7168851F90025644C /* Debug */,
+				A00A58C8168851F90025644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00A58C9168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A58CA168851F90025644C /* Debug */,
+				A00A58CB168851F90025644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A00A58CC168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00A58CD168851F90025644C /* Debug */,
+				A00A58CE168851F90025644C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00A589B168851F90025644C /* Project object */;
+}
