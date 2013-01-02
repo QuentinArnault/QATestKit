@@ -1,8 +1,8 @@
 //
-//  SenTestCase_asyncTests.m
-//  SenTestCase_asyncTests
+//  SenTestCase+stub.h
+//  QATestingKit
 //
-//  Created by Quentin ARNAULT on 24/12/12.
+//  Created by Quentin ARNAULT on 26/12/12.
 //
 //  Copyright (c) 2012 Quentin Arnault
 //
@@ -21,43 +21,11 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "SenTestCase+async.h"
 
-@interface SenTestCase_asyncTests : SenTestCase
+@interface SenTestCase (stub)
 
-@end
-
-@implementation SenTestCase_asyncTests
-
-#pragma mark -
-- (void)test_should_succeed_if_notified_before_timeout {
-    
-    int64_t delayInSeconds = .5f;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        [self notify:SenTestCaseAsyncStatusSucceeded];
-    });
-    
-    [self waitForStatus:SenTestCaseAsyncStatusSucceeded withTimeout:1.f];
-}
-
-- (void)test_should_reach_timeout_if_no_status_is_notified {
-    
-    [self waitForTimeout:1.f];
-}
-
-#pragma mark -
-#pragma mark SenTestCase
-- (void)setUp {
-    [super setUp];
-    
-    // Set-up code here.
-}
-
-- (void)tearDown {
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+- (void)stubRequestsWithURL:(NSURL *)requestURL withFixtureNamed:(NSString *)fixtureName;
+- (void)stubAllRequestsWithFixtureNamed:(NSString *)fixtureName;
+- (void)resetStubs;
 
 @end

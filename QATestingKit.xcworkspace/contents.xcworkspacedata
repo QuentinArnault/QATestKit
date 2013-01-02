@@ -4,4 +4,7 @@
    <FileRef
       location = "group:QATestingKit/QATestingKit.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:OHHTTPStubs/OHHTTPStubs.xcodeproj">
+   </FileRef>
 </Workspace>

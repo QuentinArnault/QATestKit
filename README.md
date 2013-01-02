@@ -4,6 +4,7 @@ The idea of this kit is to offer a better experience while writing UnitTests wit
 
 # FEATURES
  - Asynchronous test cases
+ - Stub network requests
 
 # INSTALL
  - Extract a tarball or zipball of the repository into your project directory.
@@ -31,7 +32,32 @@ Then, write an asynchronous unit test.
 		
 		[self waitForStatus:waitForStatus withTimeout:1.f];
 	}
-	
+
+## Stub network requests
+
+First, import SenTestCase category header.
+
+	#import "SenTestCase+async.h"
+
+Then, add a fixture (answer.json) in your test project and add it to your test target.
+
+Finally, write a test and specify that all requests will be stubbed with your fixture answer.json.
+
+	- (void)test_should_stub_any_request {
+    	[self stubAllRequestsWithFixtureNamed:@"answer.json"];
+    
+    	NSURL *anyURL = [NSURL URLWithString:@"http://www.anyurl.com/answer.json"];
+    	[NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:anyURL]
+                                       queue:[NSOperationQueue currentQueue]
+                           completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
+                               
+                           }];
+	}
+
+It is also possible to provide a stub for specific urls.
+
+To provide this stubbing capabilities, QATestingKit uses the power of OHHTTPStubs.
+
 # LICENSE
 Copyright (c) 2012 Quentin Arnault
 
@@ -44,10 +70,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # CREDITS
 This project is brought to you by Quentin Arnault and is under MIT License.
 
-Code for asynchronous test cases was inspired by ![https://github.com/akisute/SenAsyncTestCase].
+Code for asynchronous test cases was inspired by https://github.com/akisute/SenAsyncTestCase.
+Request stubbing is base on OHHTTPStubs https://github.com/AliSoftware/OHHTTPStubs.
 
 # TODO LIST
- - fast network stubs
  - fast fixture loading
  - better asserts macros
  - cocoapod compatibility

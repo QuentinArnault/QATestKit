@@ -18,6 +18,14 @@
 		A00A58D316885B650025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
 		A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A060823716889EA100EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FB78F5168A6AA00074A290 /* SenTestCase_stubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */; };
+		A0FB78F9168B8CE70074A290 /* SenTestCase+stub.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
+		A0FB78FA168B8CE70074A290 /* SenTestCase+stub.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
+		A0FB78FB168B8CE70074A290 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */; };
+		A0FB78FC168B8CE70074A290 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */; };
+		A0FB7903168B8F540074A290 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */; };
+		A0FB7905168B8FC20074A290 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */; };
+		A0FB7909168BA8560074A290 /* answer.json in Resources */ = {isa = PBXBuildFile; fileRef = A0FB7907168BA7210074A290 /* answer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,13 @@
 		A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_asyncTests.m; sourceTree = "<group>"; };
 		A00A58D0168852F90025644C /* SenTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+async.h"; sourceTree = "<group>"; };
 		A00A58D1168852F90025644C /* SenTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+async.m"; sourceTree = "<group>"; };
+		A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_stubTests.m; sourceTree = "<group>"; };
+		A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+stub.h"; sourceTree = "<group>"; };
+		A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+stub.m"; sourceTree = "<group>"; };
+		A0FB7900168B8F400074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		A0FB7907168BA7210074A290 /* answer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answer.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FB7905168B8FC20074A290 /* libOHHTTPStubs.a in Frameworks */,
 				A00A58A8168851F90025644C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FB7903168B8F540074A290 /* libOHHTTPStubs.a in Frameworks */,
 				A00A58B7168851F90025644C /* SenTestingKit.framework in Frameworks */,
 				A00A58B9168851F90025644C /* UIKit.framework in Frameworks */,
 				A00A58BA168851F90025644C /* Foundation.framework in Frameworks */,
@@ -101,9 +118,12 @@
 		A00A58A6168851F90025644C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */,
+				A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */,
+				A0FB7900168B8F400074A290 /* libOHHTTPStubs.a */,
+				A00A58B8168851F90025644C /* UIKit.framework */,
 				A00A58A7168851F90025644C /* Foundation.framework */,
 				A00A58B6168851F90025644C /* SenTestingKit.framework */,
-				A00A58B8168851F90025644C /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +148,9 @@
 		A00A58BE168851F90025644C /* QATestingKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				A0FB7906168BA6FE0074A290 /* Fixtures */,
 				A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */,
+				A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */,
 				A00A58BF168851F90025644C /* Supporting Files */,
 			);
 			path = QATestingKitTests;
@@ -148,8 +170,18 @@
 			children = (
 				A00A58D0168852F90025644C /* SenTestCase+async.h */,
 				A00A58D1168852F90025644C /* SenTestCase+async.m */,
+				A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */,
+				A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */,
 			);
 			path = "SenTestingKit+Additions";
+			sourceTree = "<group>";
+		};
+		A0FB7906168BA6FE0074A290 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB7907168BA7210074A290 /* answer.json */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */,
+				A0FB78FA168B8CE70074A290 /* SenTestCase+stub.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A060823716889EA100EDD932 /* SenTestCase+async.h in Headers */,
+				A0FB78F9168B8CE70074A290 /* SenTestCase+stub.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00A58C3168851F90025644C /* InfoPlist.strings in Resources */,
+				A0FB7909168BA8560074A290 /* answer.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */,
+				A0FB78FB168B8CE70074A290 /* SenTestCase+stub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +317,8 @@
 			files = (
 				A00A58C6168851F90025644C /* SenTestCase_asyncTests.m in Sources */,
 				A00A58D316885B650025644C /* SenTestCase+async.m in Sources */,
+				A0FB78F5168A6AA00074A290 /* SenTestCase_stubTests.m in Sources */,
+				A0FB78FC168B8CE70074A290 /* SenTestCase+stub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

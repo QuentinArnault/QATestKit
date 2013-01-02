@@ -54,6 +54,9 @@ static NSString * const kQAExpectedStatusKey = @"kQAExpectedStatusKey";
                                  beforeDate:dt];
         dt = [NSDate dateWithTimeIntervalSinceNow:0.1];
     }
+    if (self.notified) {
+        STFail(@"Async test not timed out.");
+    }
 }
 
 - (void)waitForStatus:(SenTestCaseAsyncStatus)status withTimeout:(NSTimeInterval)timeout
