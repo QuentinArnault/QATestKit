@@ -71,10 +71,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 This project is brought to you by Quentin Arnault and is under MIT License.
 
 Code for asynchronous test cases was inspired by https://github.com/akisute/SenAsyncTestCase.
-Request stubbing is base on OHHTTPStubs https://github.com/AliSoftware/OHHTTPStubs.
+
+Request stubbing is based on OHHTTPStubs https://github.com/AliSoftware/OHHTTPStubs.
 
 # TODO LIST
  - fast fixture loading
  - better asserts macros
  - cocoapod compatibility
+ - OCMock integration
+ - OCHamcrest integration
  - ...
+ 
+ Feel free to suggest some cool features.
