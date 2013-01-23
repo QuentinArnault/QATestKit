@@ -17,9 +17,14 @@
 		A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
 		A00A58D316885B650025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
 		A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A060823716889EA100EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A091E55816AF64C600DA5D2E /* SenTestCase+async.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; };
+		A091E55916AF64C600DA5D2E /* SenTestCase+stub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
+		A091E55C16AF658700DA5D2E /* QACoreDataSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A091E55B16AF658700DA5D2E /* QACoreDataSenTestCase.m */; };
+		A091E55E16AF65F100DA5D2E /* QATestingKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A091E55D16AF65AB00DA5D2E /* QATestingKit.h */; };
+		A091E55F16AF65F100DA5D2E /* QACoreDataSenTestCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A091E55A16AF658700DA5D2E /* QACoreDataSenTestCase.h */; };
+		A0CD9F6216B02B70006528B3 /* SenTestCase+fixture.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD9F6116B02B70006528B3 /* SenTestCase+fixture.m */; };
+		A0CD9F6416B02CE2006528B3 /* SenTestCase+fixture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0CD9F6016B02B70006528B3 /* SenTestCase+fixture.h */; };
 		A0FB78F5168A6AA00074A290 /* SenTestCase_stubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */; };
-		A0FB78F9168B8CE70074A290 /* SenTestCase+stub.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
 		A0FB78FA168B8CE70074A290 /* SenTestCase+stub.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
 		A0FB78FB168B8CE70074A290 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */; };
 		A0FB78FC168B8CE70074A290 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */; };
@@ -45,6 +50,11 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				A0CD9F6416B02CE2006528B3 /* SenTestCase+fixture.h in CopyFiles */,
+				A091E55E16AF65F100DA5D2E /* QATestingKit.h in CopyFiles */,
+				A091E55F16AF65F100DA5D2E /* QACoreDataSenTestCase.h in CopyFiles */,
+				A091E55816AF64C600DA5D2E /* SenTestCase+async.h in CopyFiles */,
+				A091E55916AF64C600DA5D2E /* SenTestCase+stub.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,11 @@
 		A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_asyncTests.m; sourceTree = "<group>"; };
 		A00A58D0168852F90025644C /* SenTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+async.h"; sourceTree = "<group>"; };
 		A00A58D1168852F90025644C /* SenTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+async.m"; sourceTree = "<group>"; };
+		A091E55A16AF658700DA5D2E /* QACoreDataSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACoreDataSenTestCase.h; sourceTree = "<group>"; };
+		A091E55B16AF658700DA5D2E /* QACoreDataSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACoreDataSenTestCase.m; sourceTree = "<group>"; };
+		A091E55D16AF65AB00DA5D2E /* QATestingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestingKit.h; sourceTree = "<group>"; };
+		A0CD9F6016B02B70006528B3 /* SenTestCase+fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+fixture.h"; sourceTree = "<group>"; };
+		A0CD9F6116B02B70006528B3 /* SenTestCase+fixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+fixture.m"; sourceTree = "<group>"; };
 		A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_stubTests.m; sourceTree = "<group>"; };
 		A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+stub.h"; sourceTree = "<group>"; };
 		A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+stub.m"; sourceTree = "<group>"; };
@@ -131,8 +146,11 @@
 		A00A58A9168851F90025644C /* QATestingKit */ = {
 			isa = PBXGroup;
 			children = (
+				A091E55D16AF65AB00DA5D2E /* QATestingKit.h */,
 				A00A58CF168852DD0025644C /* SenTestingKit+Additions */,
 				A00A58AA168851F90025644C /* Supporting Files */,
+				A091E55A16AF658700DA5D2E /* QACoreDataSenTestCase.h */,
+				A091E55B16AF658700DA5D2E /* QACoreDataSenTestCase.m */,
 			);
 			path = QATestingKit;
 			sourceTree = "<group>";
@@ -172,6 +190,8 @@
 				A00A58D1168852F90025644C /* SenTestCase+async.m */,
 				A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */,
 				A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */,
+				A0CD9F6016B02B70006528B3 /* SenTestCase+fixture.h */,
+				A0CD9F6116B02B70006528B3 /* SenTestCase+fixture.m */,
 			);
 			path = "SenTestingKit+Additions";
 			sourceTree = "<group>";
@@ -196,15 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A060823516889E9900EDD932 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A060823716889EA100EDD932 /* SenTestCase+async.h in Headers */,
-				A0FB78F9168B8CE70074A290 /* SenTestCase+stub.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -215,7 +226,6 @@
 				A00A58A0168851F90025644C /* Sources */,
 				A00A58A1168851F90025644C /* Frameworks */,
 				A00A58A2168851F90025644C /* CopyFiles */,
-				A060823516889E9900EDD932 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -308,6 +318,8 @@
 			files = (
 				A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */,
 				A0FB78FB168B8CE70074A290 /* SenTestCase+stub.m in Sources */,
+				A091E55C16AF658700DA5D2E /* QACoreDataSenTestCase.m in Sources */,
+				A0CD9F6216B02B70006528B3 /* SenTestCase+fixture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +411,7 @@
 				DSTROOT = /tmp/QATestingKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -411,6 +424,7 @@
 				DSTROOT = /tmp/QATestingKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

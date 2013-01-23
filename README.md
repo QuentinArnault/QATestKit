@@ -3,8 +3,10 @@
 The idea of this kit is to offer a better experience while writing UnitTests with SenTestingKit. I want to write my tests quicker and I want them to be more readable, I hope QATestingKit will help.
 
 # FEATURES
- - Asynchronous test cases
- - Stub network requests
+ - Asynchronous test cases,
+ - Stub network requests,
+ - fast fixture loading,
+ - SenTestCase subclass for CoreData
 
 # INSTALL
  - Extract a tarball or zipball of the repository into your project directory.
@@ -13,7 +15,6 @@ The idea of this kit is to offer a better experience while writing UnitTests wit
  - QATestingKit takes advantage of Objective C's ability to add categories on an object, but this isn't enabled for static libraries by default. To enable this, add the '-ObjC' flag to the "Other Linker Flags" build setting.
  - Your .app must be linked against the following frameworks in addition to QATestingKit.a
  	- SenTestingKit.framework
- - In your test target Build Settings, add "$(CONFIGURATION_BUILD_DIR)/usr/local/include"(with quotes) as a non-recursive Header Search Path.
  
 # HOW-TO
 
@@ -75,11 +76,11 @@ Code for asynchronous test cases was inspired by https://github.com/akisute/SenA
 Request stubbing is based on OHHTTPStubs https://github.com/AliSoftware/OHHTTPStubs.
 
 # TODO LIST
- - fast fixture loading
  - better asserts macros
  - cocoapod compatibility
  - OCMock integration
  - OCHamcrest integration
+ - mock network calls according parameters (GET and POST)
  - ...
  
  Feel free to suggest some cool features.
