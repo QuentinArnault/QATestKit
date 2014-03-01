@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A44F0107-85FD-4095-AF1B-C51A5F97E862</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QATestingKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>346A01C9-D294-4DA1-AE8E-35846F4A34CC</key>
+		<string>ssh://github.com/QuentinArnault/QATestKit.git</string>
+		<key>68C7A943-C38A-4357-AE6E-9953E8F9811C</key>
+		<string>https://github.com/AliSoftware/OHHTTPStubs.git</string>
+		<key>C2086AE2-21EB-440F-A64F-5BA89EFB8634</key>
+		<string>http://github.com/AFNetworking/AFNetworking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QATestingKit.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>346A01C9-D294-4DA1-AE8E-35846F4A34CC</key>
+		<string>..</string>
+		<key>68C7A943-C38A-4357-AE6E-9953E8F9811C</key>
+		<string>../OHHTTPStubs</string>
+		<key>C2086AE2-21EB-440F-A64F-5BA89EFB8634</key>
+		<string>../OHHTTPStubs/OHHTTPStubs/UnitTests/AFNetworking</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/QuentinArnault/QATestKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>346A01C9-D294-4DA1-AE8E-35846F4A34CC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2086AE2-21EB-440F-A64F-5BA89EFB8634</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFNetworking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68C7A943-C38A-4357-AE6E-9953E8F9811C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OHHTTPStubs</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>346A01C9-D294-4DA1-AE8E-35846F4A34CC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QATestKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

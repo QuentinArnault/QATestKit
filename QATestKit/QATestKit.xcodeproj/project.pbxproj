@@ -12,25 +12,14 @@
 		A00A58B9168851F90025644C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B8168851F90025644C /* UIKit.framework */; };
 		A00A58BA168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
 		A00A58BD168851F90025644C /* libQATestingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A4168851F90025644C /* libQATestingKit.a */; };
-		A00A58C3168851F90025644C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00A58C1168851F90025644C /* InfoPlist.strings */; };
-		A00A58C6168851F90025644C /* SenTestCase_asyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */; };
-		A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
-		A00A58D316885B650025644C /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A00A58D1168852F90025644C /* SenTestCase+async.m */; };
-		A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A091E55816AF64C600DA5D2E /* SenTestCase+async.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A00A58D0168852F90025644C /* SenTestCase+async.h */; };
-		A091E55916AF64C600DA5D2E /* SenTestCase+stub.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
-		A091E55C16AF658700DA5D2E /* QACoreDataSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A091E55B16AF658700DA5D2E /* QACoreDataSenTestCase.m */; };
-		A091E55E16AF65F100DA5D2E /* QATestingKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A091E55D16AF65AB00DA5D2E /* QATestingKit.h */; };
-		A091E55F16AF65F100DA5D2E /* QACoreDataSenTestCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A091E55A16AF658700DA5D2E /* QACoreDataSenTestCase.h */; };
-		A0CD9F6216B02B70006528B3 /* SenTestCase+fixture.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CD9F6116B02B70006528B3 /* SenTestCase+fixture.m */; };
-		A0CD9F6416B02CE2006528B3 /* SenTestCase+fixture.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0CD9F6016B02B70006528B3 /* SenTestCase+fixture.h */; };
-		A0FB78F5168A6AA00074A290 /* SenTestCase_stubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */; };
-		A0FB78FA168B8CE70074A290 /* SenTestCase+stub.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */; };
-		A0FB78FB168B8CE70074A290 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */; };
-		A0FB78FC168B8CE70074A290 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */; };
+		A09C5EEC18C170C60083EC38 /* QACoreDataSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EE218C170C60083EC38 /* QACoreDataSenTestCase.m */; };
+		A09C5EED18C170C60083EC38 /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EE718C170C60083EC38 /* SenTestCase+async.m */; };
+		A09C5EEE18C170C60083EC38 /* SenTestCase+fixture.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EE918C170C60083EC38 /* SenTestCase+fixture.m */; };
+		A09C5EEF18C170C60083EC38 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EEB18C170C60083EC38 /* SenTestCase+stub.m */; };
+		A09C5EFA18C1714C0083EC38 /* SenTestCase_asyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EF818C1714C0083EC38 /* SenTestCase_asyncTests.m */; };
+		A09C5EFB18C1714C0083EC38 /* SenTestCase_stubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EF918C1714C0083EC38 /* SenTestCase_stubTests.m */; };
 		A0FB7903168B8F540074A290 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */; };
 		A0FB7905168B8FC20074A290 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */; };
-		A0FB7909168BA8560074A290 /* answer.json in Resources */ = {isa = PBXBuildFile; fileRef = A0FB7907168BA7210074A290 /* answer.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +39,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				A0CD9F6416B02CE2006528B3 /* SenTestCase+fixture.h in CopyFiles */,
-				A091E55E16AF65F100DA5D2E /* QATestingKit.h in CopyFiles */,
-				A091E55F16AF65F100DA5D2E /* QACoreDataSenTestCase.h in CopyFiles */,
-				A091E55816AF64C600DA5D2E /* SenTestCase+async.h in CopyFiles */,
-				A091E55916AF64C600DA5D2E /* SenTestCase+stub.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,27 +47,27 @@
 /* Begin PBXFileReference section */
 		A00A58A4168851F90025644C /* libQATestingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQATestingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00A58A7168851F90025644C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A00A58AB168851F90025644C /* QATestingKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QATestingKit-Prefix.pch"; sourceTree = "<group>"; };
 		A00A58B5168851F90025644C /* QATestingKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QATestingKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00A58B6168851F90025644C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A00A58B8168851F90025644C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A00A58C0168851F90025644C /* QATestingKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QATestingKitTests-Info.plist"; sourceTree = "<group>"; };
-		A00A58C2168851F90025644C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_asyncTests.m; sourceTree = "<group>"; };
-		A00A58D0168852F90025644C /* SenTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+async.h"; sourceTree = "<group>"; };
-		A00A58D1168852F90025644C /* SenTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+async.m"; sourceTree = "<group>"; };
-		A091E55A16AF658700DA5D2E /* QACoreDataSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACoreDataSenTestCase.h; sourceTree = "<group>"; };
-		A091E55B16AF658700DA5D2E /* QACoreDataSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACoreDataSenTestCase.m; sourceTree = "<group>"; };
-		A091E55D16AF65AB00DA5D2E /* QATestingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestingKit.h; sourceTree = "<group>"; };
-		A0CD9F6016B02B70006528B3 /* SenTestCase+fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+fixture.h"; sourceTree = "<group>"; };
-		A0CD9F6116B02B70006528B3 /* SenTestCase+fixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+fixture.m"; sourceTree = "<group>"; };
-		A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_stubTests.m; sourceTree = "<group>"; };
-		A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+stub.h"; sourceTree = "<group>"; };
-		A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+stub.m"; sourceTree = "<group>"; };
+		A09C5EE118C170C60083EC38 /* QACoreDataSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACoreDataSenTestCase.h; sourceTree = "<group>"; };
+		A09C5EE218C170C60083EC38 /* QACoreDataSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACoreDataSenTestCase.m; sourceTree = "<group>"; };
+		A09C5EE418C170C60083EC38 /* QATestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QATestKit.h; sourceTree = "<group>"; };
+		A09C5EE618C170C60083EC38 /* SenTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+async.h"; sourceTree = "<group>"; };
+		A09C5EE718C170C60083EC38 /* SenTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+async.m"; sourceTree = "<group>"; };
+		A09C5EE818C170C60083EC38 /* SenTestCase+fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+fixture.h"; sourceTree = "<group>"; };
+		A09C5EE918C170C60083EC38 /* SenTestCase+fixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+fixture.m"; sourceTree = "<group>"; };
+		A09C5EEA18C170C60083EC38 /* SenTestCase+stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+stub.h"; sourceTree = "<group>"; };
+		A09C5EEB18C170C60083EC38 /* SenTestCase+stub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+stub.m"; sourceTree = "<group>"; };
+		A09C5EF118C171220083EC38 /* QATestKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QATestKit-Prefix.pch"; sourceTree = "<group>"; };
+		A09C5EF618C1714C0083EC38 /* answer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answer.json; sourceTree = "<group>"; };
+		A09C5EF818C1714C0083EC38 /* SenTestCase_asyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_asyncTests.m; sourceTree = "<group>"; };
+		A09C5EF918C1714C0083EC38 /* SenTestCase_stubTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_stubTests.m; sourceTree = "<group>"; };
+		A09C5EFE18C1717E0083EC38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A09C5EFF18C1717E0083EC38 /* QATestKitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QATestKitTests-Info.plist"; sourceTree = "<group>"; };
 		A0FB7900168B8F400074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
 		A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
 		A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
-		A0FB7907168BA7210074A290 /* answer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answer.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +98,8 @@
 		A00A5899168851F90025644C = {
 			isa = PBXGroup;
 			children = (
-				A00A58A9168851F90025644C /* QATestingKit */,
-				A00A58BE168851F90025644C /* QATestingKitTests */,
+				A09C5EE018C170C60083EC38 /* QATestKit */,
+				A09C5EF218C1714C0083EC38 /* QATestKitTests */,
 				A00A58A6168851F90025644C /* Frameworks */,
 				A00A58A5168851F90025644C /* Products */,
 			);
@@ -143,65 +127,66 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A00A58A9168851F90025644C /* QATestingKit */ = {
+		A09C5EE018C170C60083EC38 /* QATestKit */ = {
 			isa = PBXGroup;
 			children = (
-				A091E55D16AF65AB00DA5D2E /* QATestingKit.h */,
-				A00A58CF168852DD0025644C /* SenTestingKit+Additions */,
-				A00A58AA168851F90025644C /* Supporting Files */,
-				A091E55A16AF658700DA5D2E /* QACoreDataSenTestCase.h */,
-				A091E55B16AF658700DA5D2E /* QACoreDataSenTestCase.m */,
+				A09C5EE518C170C60083EC38 /* SenTestingKit+Additions */,
+				A09C5EF018C170FA0083EC38 /* Supporting Files */,
+				A09C5EE418C170C60083EC38 /* QATestKit.h */,
+				A09C5EE118C170C60083EC38 /* QACoreDataSenTestCase.h */,
+				A09C5EE218C170C60083EC38 /* QACoreDataSenTestCase.m */,
 			);
-			path = QATestingKit;
+			path = QATestKit;
 			sourceTree = "<group>";
 		};
-		A00A58AA168851F90025644C /* Supporting Files */ = {
+		A09C5EE518C170C60083EC38 /* SenTestingKit+Additions */ = {
 			isa = PBXGroup;
 			children = (
-				A00A58AB168851F90025644C /* QATestingKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A00A58BE168851F90025644C /* QATestingKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				A0FB7906168BA6FE0074A290 /* Fixtures */,
-				A00A58C5168851F90025644C /* SenTestCase_asyncTests.m */,
-				A0FB78F3168A6AA00074A290 /* SenTestCase_stubTests.m */,
-				A00A58BF168851F90025644C /* Supporting Files */,
-			);
-			path = QATestingKitTests;
-			sourceTree = "<group>";
-		};
-		A00A58BF168851F90025644C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A00A58C0168851F90025644C /* QATestingKitTests-Info.plist */,
-				A00A58C1168851F90025644C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A00A58CF168852DD0025644C /* SenTestingKit+Additions */ = {
-			isa = PBXGroup;
-			children = (
-				A00A58D0168852F90025644C /* SenTestCase+async.h */,
-				A00A58D1168852F90025644C /* SenTestCase+async.m */,
-				A0FB78F7168B8CE70074A290 /* SenTestCase+stub.h */,
-				A0FB78F8168B8CE70074A290 /* SenTestCase+stub.m */,
-				A0CD9F6016B02B70006528B3 /* SenTestCase+fixture.h */,
-				A0CD9F6116B02B70006528B3 /* SenTestCase+fixture.m */,
+				A09C5EE618C170C60083EC38 /* SenTestCase+async.h */,
+				A09C5EE718C170C60083EC38 /* SenTestCase+async.m */,
+				A09C5EE818C170C60083EC38 /* SenTestCase+fixture.h */,
+				A09C5EE918C170C60083EC38 /* SenTestCase+fixture.m */,
+				A09C5EEA18C170C60083EC38 /* SenTestCase+stub.h */,
+				A09C5EEB18C170C60083EC38 /* SenTestCase+stub.m */,
 			);
 			path = "SenTestingKit+Additions";
 			sourceTree = "<group>";
 		};
-		A0FB7906168BA6FE0074A290 /* Fixtures */ = {
+		A09C5EF018C170FA0083EC38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A0FB7907168BA7210074A290 /* answer.json */,
+				A09C5EF118C171220083EC38 /* QATestKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "QATestKit/Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		A09C5EF218C1714C0083EC38 /* QATestKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A09C5EFC18C1717E0083EC38 /* Supporting Files */,
+				A09C5EF518C1714C0083EC38 /* Fixtures */,
+				A09C5EF818C1714C0083EC38 /* SenTestCase_asyncTests.m */,
+				A09C5EF918C1714C0083EC38 /* SenTestCase_stubTests.m */,
+			);
+			path = QATestKitTests;
+			sourceTree = "<group>";
+		};
+		A09C5EF518C1714C0083EC38 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				A09C5EF618C1714C0083EC38 /* answer.json */,
 			);
 			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		A09C5EFC18C1717E0083EC38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A09C5EFD18C1717E0083EC38 /* InfoPlist.strings */,
+				A09C5EFF18C1717E0083EC38 /* QATestKitTests-Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +196,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A060822216889D4300EDD932 /* SenTestCase+async.h in Headers */,
-				A0FB78FA168B8CE70074A290 /* SenTestCase+stub.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +248,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Quentin Arnault";
 			};
-			buildConfigurationList = A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestingKit" */;
+			buildConfigurationList = A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -288,8 +271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00A58C3168851F90025644C /* InfoPlist.strings in Resources */,
-				A0FB7909168BA8560074A290 /* answer.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,10 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00A58D2168852F90025644C /* SenTestCase+async.m in Sources */,
-				A0FB78FB168B8CE70074A290 /* SenTestCase+stub.m in Sources */,
-				A091E55C16AF658700DA5D2E /* QACoreDataSenTestCase.m in Sources */,
-				A0CD9F6216B02B70006528B3 /* SenTestCase+fixture.m in Sources */,
+				A09C5EFB18C1714C0083EC38 /* SenTestCase_stubTests.m in Sources */,
+				A09C5EFA18C1714C0083EC38 /* SenTestCase_asyncTests.m in Sources */,
+				A09C5EEF18C170C60083EC38 /* SenTestCase+stub.m in Sources */,
+				A09C5EEE18C170C60083EC38 /* SenTestCase+fixture.m in Sources */,
+				A09C5EED18C170C60083EC38 /* SenTestCase+async.m in Sources */,
+				A09C5EEC18C170C60083EC38 /* QACoreDataSenTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00A58C6168851F90025644C /* SenTestCase_asyncTests.m in Sources */,
-				A00A58D316885B650025644C /* SenTestCase+async.m in Sources */,
-				A0FB78F5168A6AA00074A290 /* SenTestCase_stubTests.m in Sources */,
-				A0FB78FC168B8CE70074A290 /* SenTestCase+stub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,10 +324,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A00A58C1168851F90025644C /* InfoPlist.strings */ = {
+		A09C5EFD18C1717E0083EC38 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A00A58C2168851F90025644C /* en */,
+				A09C5EFE18C1717E0083EC38 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -464,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestingKit" */ = {
+		A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A00A58C7168851F90025644C /* Debug */,

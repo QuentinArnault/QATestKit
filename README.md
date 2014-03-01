@@ -1,6 +1,6 @@
-# QATestingKit
+# QATestKit
 
-The idea of this kit is to offer a better experience while writing UnitTests with SenTestingKit. I want to write my tests quicker and I want them to be more readable, I hope QATestingKit will help.
+The idea of this kit is to offer a better experience while writing UnitTests with SenTestingKit. I want to write my tests quicker and I want them to be more readable, I hope QATestKit will help.
 
 # FEATURES
  - Asynchronous test cases,
@@ -10,11 +10,11 @@ The idea of this kit is to offer a better experience while writing UnitTests wit
 
 # INSTALL
  - Extract a tarball or zipball of the repository into your project directory.
- - Add 'QATestingKit/QATestingKit.xcodeproj' as a subproject in your workspace.
- - Add libQATestingKit.a to 'Link Binary With Libraries' phase of your test target.
- - QATestingKit takes advantage of Objective C's ability to add categories on an object, but this isn't enabled for static libraries by default. To enable this, add the '-ObjC' flag to the "Other Linker Flags" build setting.
- - Your .app must be linked against the following frameworks in addition to QATestingKit.a
- 	- SenTestingKit.framework
+ - Add 'QATestKit/QATestKit.xcodeproj' as a subproject in your workspace.
+ - Add libQATestKit.a to 'Link Binary With Libraries' phase of your test target.
+ - QATestKit takes advantage of Objective C's ability to add categories on an object, but this isn't enabled for static libraries by default. To enable this, add the '-ObjC' flag to the "Other Linker Flags" build setting.
+ - Your .app must be linked against the following frameworks in addition to QATestKit.a
+ 	- SenTestKit.framework
  
 # HOW-TO
 
@@ -57,7 +57,7 @@ Finally, write a test and specify that all requests will be stubbed with your fi
 
 It is also possible to provide a stub for specific urls.
 
-To provide this stubbing capabilities, QATestingKit uses the power of OHHTTPStubs.
+To provide this stubbing capabilities, QATestKit uses the power of OHHTTPStubs.
 
 # LICENSE
 Copyright (c) 2012 Quentin Arnault

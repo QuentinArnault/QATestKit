@@ -1,4 +1,4 @@
-# QATestingKit version
+# QATestKit version
 
 Current version is 1.1.0
 
