@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0450"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A00A58A3168851F90025644C"
-               BuildableName = "libQATestingKit.a"
-               BlueprintName = "QATestingKit"
-               ReferencedContainer = "container:QATestingKit.xcodeproj">
+               BlueprintIdentifier = "A0D2C86D18C32DCC004898F7"
+               BuildableName = "libQATestKit.a"
+               BlueprintName = "QATestKit"
+               ReferencedContainer = "container:QATestKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A00A58B4168851F90025644C"
-               BuildableName = "QATestingKitTests.octest"
-               BlueprintName = "QATestingKitTests"
-               ReferencedContainer = "container:QATestingKit.xcodeproj">
+               BlueprintIdentifier = "A0D2C87D18C32DCC004898F7"
+               BuildableName = "QATestKitTests.xctest"
+               BlueprintName = "QATestKitTests"
+               ReferencedContainer = "container:QATestKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

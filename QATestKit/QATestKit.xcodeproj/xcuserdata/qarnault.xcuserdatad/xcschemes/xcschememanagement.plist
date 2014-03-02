@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>QATestingKit.xcscheme</key>
+		<key>QATestKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A00A58A3168851F90025644C</key>
+		<key>A0D2C86D18C32DCC004898F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A00A58B4168851F90025644C</key>
+		<key>A0D2C87D18C32DCC004898F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

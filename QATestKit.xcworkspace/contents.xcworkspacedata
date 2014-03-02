@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:QATestKit/QATestKit.xcodeproj">
+      location = "group:QATestKit/QATestkit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

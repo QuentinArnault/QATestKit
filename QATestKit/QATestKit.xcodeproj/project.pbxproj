@@ -7,327 +7,250 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A00A58A8168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
-		A00A58B7168851F90025644C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B6168851F90025644C /* SenTestingKit.framework */; };
-		A00A58B9168851F90025644C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58B8168851F90025644C /* UIKit.framework */; };
-		A00A58BA168851F90025644C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A7168851F90025644C /* Foundation.framework */; };
-		A00A58BD168851F90025644C /* libQATestingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00A58A4168851F90025644C /* libQATestingKit.a */; };
-		A09C5EEC18C170C60083EC38 /* QACoreDataSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EE218C170C60083EC38 /* QACoreDataSenTestCase.m */; };
-		A09C5EED18C170C60083EC38 /* SenTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EE718C170C60083EC38 /* SenTestCase+async.m */; };
-		A09C5EEE18C170C60083EC38 /* SenTestCase+fixture.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EE918C170C60083EC38 /* SenTestCase+fixture.m */; };
-		A09C5EEF18C170C60083EC38 /* SenTestCase+stub.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EEB18C170C60083EC38 /* SenTestCase+stub.m */; };
-		A09C5EFA18C1714C0083EC38 /* SenTestCase_asyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EF818C1714C0083EC38 /* SenTestCase_asyncTests.m */; };
-		A09C5EFB18C1714C0083EC38 /* SenTestCase_stubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A09C5EF918C1714C0083EC38 /* SenTestCase_stubTests.m */; };
-		A0FB7903168B8F540074A290 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */; };
-		A0FB7905168B8FC20074A290 /* libOHHTTPStubs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */; };
+		A0D2C87218C32DCC004898F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87118C32DCC004898F7 /* Foundation.framework */; };
+		A0D2C87718C32DCC004898F7 /* QATestKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D2C87618C32DCC004898F7 /* QATestKit.h */; };
+		A0D2C87918C32DCC004898F7 /* QATestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C87818C32DCC004898F7 /* QATestKit.m */; };
+		A0D2C88018C32DCC004898F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87F18C32DCC004898F7 /* XCTest.framework */; };
+		A0D2C88118C32DCC004898F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87118C32DCC004898F7 /* Foundation.framework */; };
+		A0D2C88318C32DCC004898F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C88218C32DCC004898F7 /* UIKit.framework */; };
+		A0D2C88618C32DCC004898F7 /* libQATestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C86E18C32DCC004898F7 /* libQATestKit.a */; };
+		A0D2C88C18C32DCC004898F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D2C88A18C32DCC004898F7 /* InfoPlist.strings */; };
+		A0D2C88E18C32DCC004898F7 /* QATestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A00A58BB168851F90025644C /* PBXContainerItemProxy */ = {
+		A0D2C88418C32DCC004898F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A00A589B168851F90025644C /* Project object */;
+			containerPortal = A0D2C86618C32DCC004898F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A00A58A3168851F90025644C;
-			remoteInfo = QATestingKit;
+			remoteGlobalIDString = A0D2C86D18C32DCC004898F7;
+			remoteInfo = QATestKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A00A58A2168851F90025644C /* CopyFiles */ = {
+		A0D2C86C18C32DCC004898F7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
+			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				A0D2C87718C32DCC004898F7 /* QATestKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A00A58A4168851F90025644C /* libQATestingKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQATestingKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A00A58A7168851F90025644C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A00A58B5168851F90025644C /* QATestingKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QATestingKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A00A58B6168851F90025644C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A00A58B8168851F90025644C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A09C5EE118C170C60083EC38 /* QACoreDataSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACoreDataSenTestCase.h; sourceTree = "<group>"; };
-		A09C5EE218C170C60083EC38 /* QACoreDataSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACoreDataSenTestCase.m; sourceTree = "<group>"; };
-		A09C5EE418C170C60083EC38 /* QATestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QATestKit.h; sourceTree = "<group>"; };
-		A09C5EE618C170C60083EC38 /* SenTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+async.h"; sourceTree = "<group>"; };
-		A09C5EE718C170C60083EC38 /* SenTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+async.m"; sourceTree = "<group>"; };
-		A09C5EE818C170C60083EC38 /* SenTestCase+fixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+fixture.h"; sourceTree = "<group>"; };
-		A09C5EE918C170C60083EC38 /* SenTestCase+fixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+fixture.m"; sourceTree = "<group>"; };
-		A09C5EEA18C170C60083EC38 /* SenTestCase+stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SenTestCase+stub.h"; sourceTree = "<group>"; };
-		A09C5EEB18C170C60083EC38 /* SenTestCase+stub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SenTestCase+stub.m"; sourceTree = "<group>"; };
-		A09C5EF118C171220083EC38 /* QATestKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QATestKit-Prefix.pch"; sourceTree = "<group>"; };
-		A09C5EF618C1714C0083EC38 /* answer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = answer.json; sourceTree = "<group>"; };
-		A09C5EF818C1714C0083EC38 /* SenTestCase_asyncTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_asyncTests.m; sourceTree = "<group>"; };
-		A09C5EF918C1714C0083EC38 /* SenTestCase_stubTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestCase_stubTests.m; sourceTree = "<group>"; };
-		A09C5EFE18C1717E0083EC38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A09C5EFF18C1717E0083EC38 /* QATestKitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QATestKitTests-Info.plist"; sourceTree = "<group>"; };
-		A0FB7900168B8F400074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
-		A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
-		A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "../OHHTTPStubs/build/Release-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		A0D2C86E18C32DCC004898F7 /* libQATestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQATestKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D2C87118C32DCC004898F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0D2C87518C32DCC004898F7 /* QATestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QATestKit-Prefix.pch"; sourceTree = "<group>"; };
+		A0D2C87618C32DCC004898F7 /* QATestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestKit.h; sourceTree = "<group>"; };
+		A0D2C87818C32DCC004898F7 /* QATestKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestKit.m; sourceTree = "<group>"; };
+		A0D2C87E18C32DCC004898F7 /* QATestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QATestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D2C87F18C32DCC004898F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A0D2C88218C32DCC004898F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0D2C88918C32DCC004898F7 /* QATestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QATestKitTests-Info.plist"; sourceTree = "<group>"; };
+		A0D2C88B18C32DCC004898F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestKitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A00A58A1168851F90025644C /* Frameworks */ = {
+		A0D2C86B18C32DCC004898F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0FB7905168B8FC20074A290 /* libOHHTTPStubs.a in Frameworks */,
-				A00A58A8168851F90025644C /* Foundation.framework in Frameworks */,
+				A0D2C87218C32DCC004898F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A00A58B1168851F90025644C /* Frameworks */ = {
+		A0D2C87B18C32DCC004898F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0FB7903168B8F540074A290 /* libOHHTTPStubs.a in Frameworks */,
-				A00A58B7168851F90025644C /* SenTestingKit.framework in Frameworks */,
-				A00A58B9168851F90025644C /* UIKit.framework in Frameworks */,
-				A00A58BA168851F90025644C /* Foundation.framework in Frameworks */,
-				A00A58BD168851F90025644C /* libQATestingKit.a in Frameworks */,
+				A0D2C88018C32DCC004898F7 /* XCTest.framework in Frameworks */,
+				A0D2C88318C32DCC004898F7 /* UIKit.framework in Frameworks */,
+				A0D2C88618C32DCC004898F7 /* libQATestKit.a in Frameworks */,
+				A0D2C88118C32DCC004898F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A00A5899168851F90025644C = {
+		A0D2C86518C32DCC004898F7 = {
 			isa = PBXGroup;
 			children = (
-				A09C5EE018C170C60083EC38 /* QATestKit */,
-				A09C5EF218C1714C0083EC38 /* QATestKitTests */,
-				A00A58A6168851F90025644C /* Frameworks */,
-				A00A58A5168851F90025644C /* Products */,
+				A0D2C87318C32DCC004898F7 /* QATestKit */,
+				A0D2C88718C32DCC004898F7 /* QATestKitTests */,
+				A0D2C87018C32DCC004898F7 /* Frameworks */,
+				A0D2C86F18C32DCC004898F7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A00A58A5168851F90025644C /* Products */ = {
+		A0D2C86F18C32DCC004898F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A00A58A4168851F90025644C /* libQATestingKit.a */,
-				A00A58B5168851F90025644C /* QATestingKitTests.octest */,
+				A0D2C86E18C32DCC004898F7 /* libQATestKit.a */,
+				A0D2C87E18C32DCC004898F7 /* QATestKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A00A58A6168851F90025644C /* Frameworks */ = {
+		A0D2C87018C32DCC004898F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0FB7904168B8FC20074A290 /* libOHHTTPStubs.a */,
-				A0FB7902168B8F540074A290 /* libOHHTTPStubs.a */,
-				A0FB7900168B8F400074A290 /* libOHHTTPStubs.a */,
-				A00A58B8168851F90025644C /* UIKit.framework */,
-				A00A58A7168851F90025644C /* Foundation.framework */,
-				A00A58B6168851F90025644C /* SenTestingKit.framework */,
+				A0D2C87118C32DCC004898F7 /* Foundation.framework */,
+				A0D2C87F18C32DCC004898F7 /* XCTest.framework */,
+				A0D2C88218C32DCC004898F7 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A09C5EE018C170C60083EC38 /* QATestKit */ = {
+		A0D2C87318C32DCC004898F7 /* QATestKit */ = {
 			isa = PBXGroup;
 			children = (
-				A09C5EE518C170C60083EC38 /* SenTestingKit+Additions */,
-				A09C5EF018C170FA0083EC38 /* Supporting Files */,
-				A09C5EE418C170C60083EC38 /* QATestKit.h */,
-				A09C5EE118C170C60083EC38 /* QACoreDataSenTestCase.h */,
-				A09C5EE218C170C60083EC38 /* QACoreDataSenTestCase.m */,
+				A0D2C87618C32DCC004898F7 /* QATestKit.h */,
+				A0D2C87818C32DCC004898F7 /* QATestKit.m */,
+				A0D2C87418C32DCC004898F7 /* Supporting Files */,
 			);
 			path = QATestKit;
 			sourceTree = "<group>";
 		};
-		A09C5EE518C170C60083EC38 /* SenTestingKit+Additions */ = {
+		A0D2C87418C32DCC004898F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A09C5EE618C170C60083EC38 /* SenTestCase+async.h */,
-				A09C5EE718C170C60083EC38 /* SenTestCase+async.m */,
-				A09C5EE818C170C60083EC38 /* SenTestCase+fixture.h */,
-				A09C5EE918C170C60083EC38 /* SenTestCase+fixture.m */,
-				A09C5EEA18C170C60083EC38 /* SenTestCase+stub.h */,
-				A09C5EEB18C170C60083EC38 /* SenTestCase+stub.m */,
-			);
-			path = "SenTestingKit+Additions";
-			sourceTree = "<group>";
-		};
-		A09C5EF018C170FA0083EC38 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A09C5EF118C171220083EC38 /* QATestKit-Prefix.pch */,
+				A0D2C87518C32DCC004898F7 /* QATestKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = "QATestKit/Supporting Files";
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
-		A09C5EF218C1714C0083EC38 /* QATestKitTests */ = {
+		A0D2C88718C32DCC004898F7 /* QATestKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A09C5EFC18C1717E0083EC38 /* Supporting Files */,
-				A09C5EF518C1714C0083EC38 /* Fixtures */,
-				A09C5EF818C1714C0083EC38 /* SenTestCase_asyncTests.m */,
-				A09C5EF918C1714C0083EC38 /* SenTestCase_stubTests.m */,
+				A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */,
+				A0D2C88818C32DCC004898F7 /* Supporting Files */,
 			);
 			path = QATestKitTests;
 			sourceTree = "<group>";
 		};
-		A09C5EF518C1714C0083EC38 /* Fixtures */ = {
+		A0D2C88818C32DCC004898F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A09C5EF618C1714C0083EC38 /* answer.json */,
+				A0D2C88918C32DCC004898F7 /* QATestKitTests-Info.plist */,
+				A0D2C88A18C32DCC004898F7 /* InfoPlist.strings */,
 			);
-			path = Fixtures;
-			sourceTree = "<group>";
-		};
-		A09C5EFC18C1717E0083EC38 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A09C5EFD18C1717E0083EC38 /* InfoPlist.strings */,
-				A09C5EFF18C1717E0083EC38 /* QATestKitTests-Info.plist */,
-			);
-			path = "Supporting Files";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		A060822016889D3C00EDD932 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		A00A58A3168851F90025644C /* QATestingKit */ = {
+		A0D2C86D18C32DCC004898F7 /* QATestKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A00A58C9168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKit" */;
+			buildConfigurationList = A0D2C89118C32DCC004898F7 /* Build configuration list for PBXNativeTarget "QATestKit" */;
 			buildPhases = (
-				A00A58A0168851F90025644C /* Sources */,
-				A00A58A1168851F90025644C /* Frameworks */,
-				A00A58A2168851F90025644C /* CopyFiles */,
+				A0D2C86A18C32DCC004898F7 /* Sources */,
+				A0D2C86B18C32DCC004898F7 /* Frameworks */,
+				A0D2C86C18C32DCC004898F7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QATestingKit;
-			productName = QATestingKit;
-			productReference = A00A58A4168851F90025644C /* libQATestingKit.a */;
+			name = QATestKit;
+			productName = QATestKit;
+			productReference = A0D2C86E18C32DCC004898F7 /* libQATestKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A00A58B4168851F90025644C /* QATestingKitTests */ = {
+		A0D2C87D18C32DCC004898F7 /* QATestKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A00A58CC168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKitTests" */;
+			buildConfigurationList = A0D2C89418C32DCC004898F7 /* Build configuration list for PBXNativeTarget "QATestKitTests" */;
 			buildPhases = (
-				A00A58B0168851F90025644C /* Sources */,
-				A00A58B1168851F90025644C /* Frameworks */,
-				A00A58B2168851F90025644C /* Resources */,
-				A00A58B3168851F90025644C /* ShellScript */,
-				A060822016889D3C00EDD932 /* Headers */,
+				A0D2C87A18C32DCC004898F7 /* Sources */,
+				A0D2C87B18C32DCC004898F7 /* Frameworks */,
+				A0D2C87C18C32DCC004898F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A00A58BC168851F90025644C /* PBXTargetDependency */,
+				A0D2C88518C32DCC004898F7 /* PBXTargetDependency */,
 			);
-			name = QATestingKitTests;
-			productName = QATestingKitTests;
-			productReference = A00A58B5168851F90025644C /* QATestingKitTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = QATestKitTests;
+			productName = QATestKitTests;
+			productReference = A0D2C87E18C32DCC004898F7 /* QATestKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A00A589B168851F90025644C /* Project object */ = {
+		A0D2C86618C32DCC004898F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Quentin Arnault";
 			};
-			buildConfigurationList = A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestKit" */;
+			buildConfigurationList = A0D2C86918C32DCC004898F7 /* Build configuration list for PBXProject "QATestKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A00A5899168851F90025644C;
-			productRefGroup = A00A58A5168851F90025644C /* Products */;
+			mainGroup = A0D2C86518C32DCC004898F7;
+			productRefGroup = A0D2C86F18C32DCC004898F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A00A58A3168851F90025644C /* QATestingKit */,
-				A00A58B4168851F90025644C /* QATestingKitTests */,
+				A0D2C86D18C32DCC004898F7 /* QATestKit */,
+				A0D2C87D18C32DCC004898F7 /* QATestKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A00A58B2168851F90025644C /* Resources */ = {
+		A0D2C87C18C32DCC004898F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D2C88C18C32DCC004898F7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A00A58B3168851F90025644C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A00A58A0168851F90025644C /* Sources */ = {
+		A0D2C86A18C32DCC004898F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A09C5EFB18C1714C0083EC38 /* SenTestCase_stubTests.m in Sources */,
-				A09C5EFA18C1714C0083EC38 /* SenTestCase_asyncTests.m in Sources */,
-				A09C5EEF18C170C60083EC38 /* SenTestCase+stub.m in Sources */,
-				A09C5EEE18C170C60083EC38 /* SenTestCase+fixture.m in Sources */,
-				A09C5EED18C170C60083EC38 /* SenTestCase+async.m in Sources */,
-				A09C5EEC18C170C60083EC38 /* QACoreDataSenTestCase.m in Sources */,
+				A0D2C87918C32DCC004898F7 /* QATestKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A00A58B0168851F90025644C /* Sources */ = {
+		A0D2C87A18C32DCC004898F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D2C88E18C32DCC004898F7 /* QATestKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A00A58BC168851F90025644C /* PBXTargetDependency */ = {
+		A0D2C88518C32DCC004898F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A00A58A3168851F90025644C /* QATestingKit */;
-			targetProxy = A00A58BB168851F90025644C /* PBXContainerItemProxy */;
+			target = A0D2C86D18C32DCC004898F7 /* QATestKit */;
+			targetProxy = A0D2C88418C32DCC004898F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A09C5EFD18C1717E0083EC38 /* InfoPlist.strings */ = {
+		A0D2C88A18C32DCC004898F7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A09C5EFE18C1717E0083EC38 /* en */,
+				A0D2C88B18C32DCC004898F7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -335,17 +258,24 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A00A58C7168851F90025644C /* Debug */ = {
+		A0D2C88F18C32DCC004898F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -354,123 +284,141 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		A00A58C8168851F90025644C /* Release */ = {
+		A0D2C89018C32DCC004898F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A00A58CA168851F90025644C /* Debug */ = {
+		A0D2C89218C32DCC004898F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/QATestingKit.dst;
+				DSTROOT = /tmp/QATestKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREFIX_HEADER = "QATestKit/QATestKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A00A58CB168851F90025644C /* Release */ = {
+		A0D2C89318C32DCC004898F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/QATestingKit.dst;
+				DSTROOT = /tmp/QATestKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREFIX_HEADER = "QATestKit/QATestKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		A00A58CD168851F90025644C /* Debug */ = {
+		A0D2C89518C32DCC004898F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					$inherited,
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
-				INFOPLIST_FILE = "QATestingKitTests/QATestingKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "QATestKit/QATestKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QATestKitTests/QATestKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		A00A58CE168851F90025644C /* Release */ = {
+		A0D2C89618C32DCC004898F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
-					$inherited,
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QATestingKit/QATestingKit-Prefix.pch";
-				INFOPLIST_FILE = "QATestingKitTests/QATestingKitTests-Info.plist";
+				GCC_PREFIX_HEADER = "QATestKit/QATestKit-Prefix.pch";
+				INFOPLIST_FILE = "QATestKitTests/QATestKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A00A589E168851F90025644C /* Build configuration list for PBXProject "QATestKit" */ = {
+		A0D2C86918C32DCC004898F7 /* Build configuration list for PBXProject "QATestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00A58C7168851F90025644C /* Debug */,
-				A00A58C8168851F90025644C /* Release */,
+				A0D2C88F18C32DCC004898F7 /* Debug */,
+				A0D2C89018C32DCC004898F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A00A58C9168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKit" */ = {
+		A0D2C89118C32DCC004898F7 /* Build configuration list for PBXNativeTarget "QATestKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00A58CA168851F90025644C /* Debug */,
-				A00A58CB168851F90025644C /* Release */,
+				A0D2C89218C32DCC004898F7 /* Debug */,
+				A0D2C89318C32DCC004898F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		A00A58CC168851F90025644C /* Build configuration list for PBXNativeTarget "QATestingKitTests" */ = {
+		A0D2C89418C32DCC004898F7 /* Build configuration list for PBXNativeTarget "QATestKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A00A58CD168851F90025644C /* Debug */,
-				A00A58CE168851F90025644C /* Release */,
+				A0D2C89518C32DCC004898F7 /* Debug */,
+				A0D2C89618C32DCC004898F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A00A589B168851F90025644C /* Project object */;
+	rootObject = A0D2C86618C32DCC004898F7 /* Project object */;
 }
