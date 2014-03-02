@@ -1,6 +1,6 @@
 //
-//  XCTestCase_asyncTests.{h,m}
-//  QATestKitTests
+//  XCTestCase_assertMacrosTests.{h,m}
+//  QATestkit
 //
 //  Copyright (c) 2014 Quentin Arnault. All rights reserved.
 //
@@ -20,32 +20,31 @@
 //  IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
 #import <XCTest/XCTest.h>
-#import "XCTestCase+async.h"
 #import "XCTestCase+assertMacros.h"
 
-@interface XCTestCase_asyncTests : XCTestCase
+@interface XCTestCase_assertMacrosTests : XCTestCase
 
 @end
 
-@implementation XCTestCase_asyncTests
+@implementation XCTestCase_assertMacrosTests
 
 #pragma mark -
-- (void)test_should_succeed_if_notified_before_timeout {
-
-    int64_t delayInSeconds = .5f;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        [self notify:XCTestCaseAsyncStatusSucceeded];
-    });
-
-    [self waitForStatus:XCTestCaseAsyncStatusSucceeded withTimeout:1.f];
-}
-
-- (void)test_should_reach_timeout_if_no_status_is_notified {
-    
-    [self waitForTimeout:1.f];
+- (void)test_should_assert_on_assertion_failure {
+//    BOOL didAssert = NO;
+//    @try {
+//        XCTAssertGreaterThan(1
+//                                            , 2
+//                                            , @"ASSERT");
+//    }
+//    @catch (NSException *exception) {
+//        didAssert = YES;
+//    }
+//    @finally {
+//        XCTAssertTrue(didAssert
+//                      , @"should have asserted");
+//    }
+//    
 }
 
 @end
