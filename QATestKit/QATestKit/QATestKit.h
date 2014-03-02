@@ -24,3 +24,4 @@
 #import <Foundation/Foundation.h>
 
 #import "XCTestCase+async.h"
+#import "XCTestCase+assertMacros.h"
