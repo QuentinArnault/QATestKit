@@ -8,6 +8,4 @@
 
 #import <Foundation/Foundation.h>
 
-@interface QATestKit : NSObject
-
-@end
+#import "XCTestCase+async.h"

@@ -10,7 +10,6 @@
 		A048E05618C334E800637002 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87F18C32DCC004898F7 /* XCTest.framework */; };
 		A0D2C87218C32DCC004898F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87118C32DCC004898F7 /* Foundation.framework */; };
 		A0D2C87718C32DCC004898F7 /* QATestKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D2C87618C32DCC004898F7 /* QATestKit.h */; };
-		A0D2C87918C32DCC004898F7 /* QATestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C87818C32DCC004898F7 /* QATestKit.m */; };
 		A0D2C88018C32DCC004898F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87F18C32DCC004898F7 /* XCTest.framework */; };
 		A0D2C88118C32DCC004898F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87118C32DCC004898F7 /* Foundation.framework */; };
 		A0D2C88318C32DCC004898F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C88218C32DCC004898F7 /* UIKit.framework */; };
@@ -48,7 +47,6 @@
 		A0D2C87118C32DCC004898F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0D2C87518C32DCC004898F7 /* QATestKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QATestKit-Prefix.pch"; sourceTree = "<group>"; };
 		A0D2C87618C32DCC004898F7 /* QATestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QATestKit.h; sourceTree = "<group>"; };
-		A0D2C87818C32DCC004898F7 /* QATestKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestKit.m; sourceTree = "<group>"; };
 		A0D2C87E18C32DCC004898F7 /* QATestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QATestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D2C87F18C32DCC004898F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A0D2C88218C32DCC004898F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,9 +113,8 @@
 		A0D2C87318C32DCC004898F7 /* QATestKit */ = {
 			isa = PBXGroup;
 			children = (
-				A0D2C89718C33432004898F7 /* XCTest */,
 				A0D2C87618C32DCC004898F7 /* QATestKit.h */,
-				A0D2C87818C32DCC004898F7 /* QATestKit.m */,
+				A0D2C89718C33432004898F7 /* XCTest */,
 				A0D2C87418C32DCC004898F7 /* Supporting Files */,
 			);
 			path = QATestKit;
@@ -239,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D2C87918C32DCC004898F7 /* QATestKit.m in Sources */,
 				A0D2C89B18C3344F004898F7 /* XCTestCase+async.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
