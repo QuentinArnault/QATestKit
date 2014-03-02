@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A048E05618C334E800637002 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87F18C32DCC004898F7 /* XCTest.framework */; };
 		A0D2C87218C32DCC004898F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C87118C32DCC004898F7 /* Foundation.framework */; };
 		A0D2C87718C32DCC004898F7 /* QATestKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A0D2C87618C32DCC004898F7 /* QATestKit.h */; };
 		A0D2C87918C32DCC004898F7 /* QATestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C87818C32DCC004898F7 /* QATestKit.m */; };
@@ -16,6 +17,7 @@
 		A0D2C88618C32DCC004898F7 /* libQATestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C86E18C32DCC004898F7 /* libQATestKit.a */; };
 		A0D2C88C18C32DCC004898F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D2C88A18C32DCC004898F7 /* InfoPlist.strings */; };
 		A0D2C88E18C32DCC004898F7 /* QATestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */; };
+		A0D2C89B18C3344F004898F7 /* XCTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C89A18C3344F004898F7 /* XCTestCase+async.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A0D2C88918C32DCC004898F7 /* QATestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QATestKitTests-Info.plist"; sourceTree = "<group>"; };
 		A0D2C88B18C32DCC004898F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestKitTests.m; sourceTree = "<group>"; };
+		A0D2C89918C3344F004898F7 /* XCTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+async.h"; sourceTree = "<group>"; };
+		A0D2C89A18C3344F004898F7 /* XCTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+async.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D2C87218C32DCC004898F7 /* Foundation.framework in Frameworks */,
+				A048E05618C334E800637002 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +115,7 @@
 		A0D2C87318C32DCC004898F7 /* QATestKit */ = {
 			isa = PBXGroup;
 			children = (
+				A0D2C89718C33432004898F7 /* XCTest */,
 				A0D2C87618C32DCC004898F7 /* QATestKit.h */,
 				A0D2C87818C32DCC004898F7 /* QATestKit.m */,
 				A0D2C87418C32DCC004898F7 /* Supporting Files */,
@@ -141,6 +147,15 @@
 				A0D2C88A18C32DCC004898F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0D2C89718C33432004898F7 /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2C89918C3344F004898F7 /* XCTestCase+async.h */,
+				A0D2C89A18C3344F004898F7 /* XCTestCase+async.m */,
+			);
+			path = XCTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +205,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Quentin Arnault";
 			};
-			buildConfigurationList = A0D2C86918C32DCC004898F7 /* Build configuration list for PBXProject "QATestKit" */;
+			buildConfigurationList = A0D2C86918C32DCC004898F7 /* Build configuration list for PBXProject "QATestkit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -225,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D2C87918C32DCC004898F7 /* QATestKit.m in Sources */,
+				A0D2C89B18C3344F004898F7 /* XCTestCase+async.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +348,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/QATestKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QATestKit/QATestKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -344,6 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/QATestKit.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QATestKit/QATestKit-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -393,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A0D2C86918C32DCC004898F7 /* Build configuration list for PBXProject "QATestKit" */ = {
+		A0D2C86918C32DCC004898F7 /* Build configuration list for PBXProject "QATestkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A0D2C88F18C32DCC004898F7 /* Debug */,
@@ -409,6 +433,7 @@
 				A0D2C89318C32DCC004898F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0D2C89418C32DCC004898F7 /* Build configuration list for PBXNativeTarget "QATestKitTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				A0D2C89618C32DCC004898F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
