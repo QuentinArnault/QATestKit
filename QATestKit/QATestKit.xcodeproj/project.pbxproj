@@ -15,8 +15,9 @@
 		A0D2C88318C32DCC004898F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C88218C32DCC004898F7 /* UIKit.framework */; };
 		A0D2C88618C32DCC004898F7 /* libQATestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2C86E18C32DCC004898F7 /* libQATestKit.a */; };
 		A0D2C88C18C32DCC004898F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0D2C88A18C32DCC004898F7 /* InfoPlist.strings */; };
-		A0D2C88E18C32DCC004898F7 /* QATestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */; };
+		A0D2C88E18C32DCC004898F7 /* XCTestCase_asyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C88D18C32DCC004898F7 /* XCTestCase_asyncTests.m */; };
 		A0D2C89B18C3344F004898F7 /* XCTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C89A18C3344F004898F7 /* XCTestCase+async.m */; };
+		A0E253E718C3421B00F075F1 /* XCTestCase+async.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D2C89A18C3344F004898F7 /* XCTestCase+async.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,7 @@
 		A0D2C88218C32DCC004898F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A0D2C88918C32DCC004898F7 /* QATestKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QATestKitTests-Info.plist"; sourceTree = "<group>"; };
 		A0D2C88B18C32DCC004898F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QATestKitTests.m; sourceTree = "<group>"; };
+		A0D2C88D18C32DCC004898F7 /* XCTestCase_asyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestCase_asyncTests.m; sourceTree = "<group>"; };
 		A0D2C89918C3344F004898F7 /* XCTestCase+async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+async.h"; sourceTree = "<group>"; };
 		A0D2C89A18C3344F004898F7 /* XCTestCase+async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+async.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,7 +132,7 @@
 		A0D2C88718C32DCC004898F7 /* QATestKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0D2C88D18C32DCC004898F7 /* QATestKitTests.m */,
+				A0D2C88D18C32DCC004898F7 /* XCTestCase_asyncTests.m */,
 				A0D2C88818C32DCC004898F7 /* Supporting Files */,
 			);
 			path = QATestKitTests;
@@ -244,7 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D2C88E18C32DCC004898F7 /* QATestKitTests.m in Sources */,
+				A0D2C88E18C32DCC004898F7 /* XCTestCase_asyncTests.m in Sources */,
+				A0E253E718C3421B00F075F1 /* XCTestCase+async.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

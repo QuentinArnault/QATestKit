@@ -1,6 +1,6 @@
 //
-//  QATestKit.h
-//  QATestKit
+//  XCTestCase_asyncTests.{h,m}
+//  QATestKitTests
 //
 //  Copyright (c) 2014 Quentin Arnault. All rights reserved.
 //
@@ -21,6 +21,30 @@
 //  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-#import <Foundation/Foundation.h>
-
+#import <XCTest/XCTest.h>
 #import "XCTestCase+async.h"
+
+@interface XCTestCase_asyncTests : XCTestCase
+
+@end
+
+@implementation XCTestCase_asyncTests
+
+#pragma mark -
+- (void)test_should_succeed_if_notified_before_timeout {
+    
+    int64_t delayInSeconds = .5f;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+        [self notify:XCTestCaseAsyncStatusSucceeded];
+    });
+    
+    [self waitForStatus:XCTestCaseAsyncStatusSucceeded withTimeout:1.f];
+}
+
+- (void)test_should_reach_timeout_if_no_status_is_notified {
+    
+    [self waitForTimeout:1.f];
+}
+
+@end
